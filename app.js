@@ -10,5 +10,5 @@ http.createServer(function(req,res){
         res.writeHead(200);
         res.end(data);
     });
-}).listen(8888,"127.0.0.1");
-console.log('Server running at http://127.0.0.1:8888/');
+}).listen(80);
+console.log('Server running at http://106.0.36.127:80/');
